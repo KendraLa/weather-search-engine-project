@@ -8,15 +8,17 @@ function App() {
     <div className="App">
       <h1>Weather Search Engine Homework</h1>
       <Weather />
-      <a
-        className="open-source"
-        href=""
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <p>Open-source</p>
-        by Kendra Lambillon
-      </a>
+      <p>
+        <a
+          className="open-source"
+          href="https://github.com/KendraLa/weather-search-engine-project"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Open-source code
+        </a>
+        , by Kendra Lambillon
+      </p>
     </div>
   );
 }
